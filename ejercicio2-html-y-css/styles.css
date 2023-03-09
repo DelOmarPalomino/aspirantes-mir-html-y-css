@@ -1,0 +1,35 @@
+form {
+    width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    background-image: linear-gradient(#bd09b7, #6b4cf5);
+    color: white;
+    /* text-align: right; */
+}
+
+input {
+    padding: 7px;
+    width: 100%;
+}
+
+input[type="checkbox"] {
+    padding: 7px;
+    width: auto !important;
+}
+
+button {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.button-container {
+    text-align: right;
+}
+
+@media screen and (min-width: 500px) {
+    form {
+        width: 300px;
+    }
+}
